@@ -7,3 +7,4 @@ def my_calc():
     except ZeroDivisionError:
         return "Нельзя делить на 0"
 print(my_calc())
+
