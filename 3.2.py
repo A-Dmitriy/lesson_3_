@@ -3,8 +3,8 @@ def data_user(**kwargs):
     return list(kwargs.values())
 
 def data_user_1():
-print(data_user(name = input("Введите имя: "),
-            s_name = input("Введите фамилию: "),
-            b_date = input("Введите дату рождения: "),
-            mail = input("Введите е-mail: "),
-            tel = input("Введите номер телефона: ")))
+    print(data_user(name = input("Введите имя: "),
+                    s_name = input("Введите фамилию: "),
+                    b_date = input("Введите дату рождения: "),
+                    mail = input("Введите е-mail: "),
+                    tel = input("Введите номер телефона: ")))
